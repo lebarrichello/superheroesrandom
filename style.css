@@ -1,14 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Dekko|Lato:900|Rock+Salt");
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 main {
     align-items: center;
-    background-color: rgb(24, 28, 28);
+    background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(0)" opacity="0.2" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23250E17"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'),
+    #c52754;
+    background-size: 10px, 100%;
+    color: ghostwhite;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+    gap: 1rem;
     justify-content: center;
+    letter-spacing: 2px;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.card {
+    background: #c52754;
+    box-shadow: 0 1px 15px -7.5px #000000;
+    font-family: "Rock Salt", cursive;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.10rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+button {
+  background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(25)" opacity="0.8" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23d68810"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'),
+    #ffcd28;
+  background-size: 13px, 100%;
+  background-size: 12px, 100%;
+  border: 0.4rem solid #000;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Dekko", cursive;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  padding: 0.2rem 1.25rem;
+}
+
+button:active {
+    transform: scale(0.98);
 }
