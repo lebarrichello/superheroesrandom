@@ -52,3 +52,17 @@ button {
 button:active {
     transform: scale(0.98);
 }
+
+@media screen and (max-width: 300px) {
+    .card { 
+      width: 90%;
+    }
+
+    .card img {
+      width: 215px;
+    }
+
+    h1 {
+        font-size: larger;
+    }
+  }
