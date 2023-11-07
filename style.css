@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    align-items: center;
+    background-color: rgb(24, 28, 28);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
