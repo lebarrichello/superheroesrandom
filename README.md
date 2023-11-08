@@ -5,7 +5,7 @@ Projeto desenvolvido como parte dos estudos no módulo de Front-End do curso de 
 [Gravação de tela de 07-11-2023 18:28:39.webm](https://github.com/lebarrichello/superheroesrandom/assets/42211040/1f0b72cd-e762-4382-b9cc-b9e494af06a2)
 
 
-<p>Acesse o projeto em produção <a href="https://lebarrichello.github.io/superheroesrandom/" target="_blank">clicando aqui</a></p>
+<p>Acesse o projeto em produção <a href="https://select-pet-9shl.vercel.app/" target="_blank">clicando aqui</a></p>
 
 ## 🎯 Objetivo
 
